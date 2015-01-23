@@ -1,3 +1,14 @@
+
 .navbar {
-	background:pink; 
+	background: gray; 
 }
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background: pink;
+}
+
+/*by adding a comma, you move it out of the parent */
+.navbar-default .navbar-nav>li>a 
+ {
+	color:white;
+ }
