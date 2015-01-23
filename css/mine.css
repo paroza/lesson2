@@ -7,7 +7,7 @@
 	background: pink;
 }
 
-/*by adding a comma, you move it out of the parent */
+/*by adding a comma, you move it out of the parent  check to see if this works*/
 .navbar-default .navbar-nav>li>a 
  {
 	color:white;
